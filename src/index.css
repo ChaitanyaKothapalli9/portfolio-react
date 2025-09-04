@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional animation delay helpers used by the blobs */
+.animation-delay-2000 { animation-delay: 2s; }
+.animation-delay-4000 { animation-delay: 4s; }
+
+/* Smooth scroll behavior */
+html { scroll-behavior: smooth; }
+
+/* Make sure fonts look crisp */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
