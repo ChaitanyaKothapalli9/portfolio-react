@@ -116,7 +116,7 @@ export default function App() {
     email: "ckchaithu1234@gmail.com",
     linkedin: "https://www.linkedin.com/in/ckb123",
     github: "https://github.com/ChaitanyaKothapalli9",
-    resumeUrl: `${import.meta.env.BASE_URL}Resume_Chaitaya_Kothapalli.pdf`,
+    resumeUrl: `${import.meta.env.BASE_URL}Resume_Chaitanya_Kothapalli.pdf`,
     about: "I'm a Software Engineer who thrives on architecting and constructing high-performance backend services and distributed systems. With a Master's in Computer Science and hands-on experience with technologies like Java, Spring Boot, Python, Golang, Kafka, RabbitMQ, Docker, K8s and AWS, I transform complex challenges into robust, scalable software solutions. My passion lies in the complete development lifecycle, from initial design to final deployment.",
     experience: [
       { role: "Java Backend Developer", company: "Frugal Innovation Hub, Santa Clara University", date: "Jan 2025 - Present", description: "Architecting and developing the backend services for a Library Management System, utilizing Spring Boot and REST APIs to build a scalable and secure platform.", logo: <ScuLogo /> },
