@@ -116,7 +116,7 @@ export default function App() {
     email: "ckchaithu1234@gmail.com",
     linkedin: "https://www.linkedin.com/in/ckb123",
     github: "https://github.com/ChaitanyaKothapalli9",
-    resumeUrl: "/Resume_Chaitaya_Kothapalli.pdf",
+    resumeUrl: `${import.meta.env.BASE_URL}Resume_Chaitaya_Kothapalli.pdf`,
     about: "I'm a Software Engineer who thrives on architecting and constructing high-performance backend services and distributed systems. With a Master's in Computer Science and hands-on experience with technologies like Java, Spring Boot, Python, Golang, Kafka, RabbitMQ, Docker, K8s and AWS, I transform complex challenges into robust, scalable software solutions. My passion lies in the complete development lifecycle, from initial design to final deployment.",
     experience: [
       { role: "Java Backend Developer", company: "Frugal Innovation Hub, Santa Clara University", date: "Jan 2025 - Present", description: "Architecting and developing the backend services for a Library Management System, utilizing Spring Boot and REST APIs to build a scalable and secure platform.", logo: <ScuLogo /> },
@@ -212,7 +212,7 @@ export default function App() {
                         <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full transform -rotate-12 transition-transform duration-500 hover:rotate-0 hover:scale-105 shadow-2xl"></div>
                         <div className="absolute inset-2 bg-white dark:bg-black rounded-full flex items-center justify-center">
                             <div className="absolute inset-2 bg-white dark:bg-black rounded-full flex items-center justify-center overflow-hidden">
-                            <img src="/headshot.jpg" alt="Chaitanya Kothapalli" className="w-full h-full object-cover" />
+                            <img src={`${import.meta.env.BASE_URL}headshot.jpg`} alt="Chaitanya Kothapalli" className="w-full h-full object-cover" />
                         </div>
                         </div>
                     </div>
