@@ -140,17 +140,18 @@ export default function App() {
     email: "ckchaithu1234@gmail.com",
     linkedin: "https://www.linkedin.com/in/ckb123",
     github: "https://github.com/ChaitanyaKothapalli9",
-    resumeUrl: "https://drive.google.com/drive/u/0/folders/18l5y-DdN_dCrqWBzO9oOdh8LwQuZFZ_L",
+    resumeUrl: "https://drive.google.com/file/d/1IKsBCOBq-cCSbWoVfde7yEg-3eNcobnY/view?usp=sharing",
     about: "I'm a Software Engineer who thrives on architecting and constructing high-performance backend services and distributed systems. With a Master's in Computer Science and hands-on experience with technologies like Java, Spring Boot, Go, Python, Kafka, RabbitMQ, Docker, Kubernetes and AWS, I transform complex challenges into robust, scalable software solutions. My passion lies in the complete development lifecycle, from initial design to final deployment.",
     experience: [
       { 
-        role: "Java Backend Developer", 
+        role: "Backend Engineer", 
         company: "Frugal Innovation Hub, Santa Clara University", 
         date: "Jan 2025 - Present", 
         points: [
+            "Building a real-time sports event streaming pipeline using Apache Kafka and Spring Boot to distribute live match updates across dashboards, notifications, engineered for scalability to support 9,000+ concurrent viewers.",
             "Developing backend services for a Library Management System using Spring Boot, Spring Data JPA, and REST APIs to manage users, book lending, and inventory with role-based access control and MySQL integration."
         ],
-        tech: ["Spring Boot", "Java", "REST APIs", "MySQL", "Hibernate"],
+        tech: ["Spring Boot", "Java", "Kafka", "REST APIs", "MySQL", "Hibernate"],
         logo: <ScuLogo /> 
       },
       { 
@@ -184,12 +185,12 @@ export default function App() {
         { university: "BV Raju Institute of Technology", degree: "Bachelors in Computer Science and Engineering, CGPA: 3.5", date: "Jun 2017 - Jul 2021", courses: "Courses: Object Oriented Analysis and Design, Socket Programming, Cloud Computing, Compiler Design, Machine Learning, Web Tech", logo: <GraduationCapIcon className="w-8 h-8 text-cyan-500" /> }
     ],
     projects: [
-      { title: "Bronco Career Alerts", description: "Architected a distributed Pub-Sub system for real-time job alerts using RabbitMQ, Docker, and Kubernetes. Engineered the system to ensure high availability and fault tolerance through replication and mutual exclusion.", tags: ["Java", "Python", "RabbitMQ", "Docker", "Kubernetes"], link: "#" },
-      { title: "House Leasing Application", description: "Built a full-stack house leasing platform with a secure Spring Boot backend, MongoDB database, and AWS S3 for file storage. Engineered a containerized deployment using Docker for scalability and portability.", tags: ["Spring Boot", "MongoDB", "AWS", "Docker", "REST APIs"], link: "#" },
-      { title: "Recursive DNS Resolver", description: "Constructed a high-performance DNS resolver in Golang from the ground up. Implemented a custom caching mechanism with TTL to minimize latency and optimize network requests for various record types.", tags: ["Golang", "DNS", "Caching", "Web Protocols"], link: "#" },
-      { title: "CI/CD on AWS EKS", description: "Designed and implemented a complete, scalable CI/CD pipeline on AWS. Built the infrastructure using CodeCommit, CodePipeline, and ECR to automate the deployment of containerized workloads on EKS Fargate.", tags: ["AWS", "CI/CD", "Docker", "Kubernetes"], link: "#" },
+      { title: "Bronco Career Alerts", description: "Architected a distributed Pub-Sub system for real-time job alerts using RabbitMQ, Docker, and Kubernetes. Engineered the system to ensure high availability and fault tolerance through replication and mutual exclusion.", tags: ["Java", "Python", "RabbitMQ", "Docker", "Kubernetes"], link: "https://github.com/ChaitanyaKothapalli9/BRONCO-CAREER-ALERTS--DISTRIBUTED-SYSTEMS" },
+      { title: "House Leasing Application", description: "Built a full-stack house leasing platform with a secure Spring Boot backend, MongoDB database, and AWS S3 for file storage. Engineered a containerized deployment using Docker for scalability and portability.", tags: ["Spring Boot", "MongoDB", "AWS", "Docker", "REST APIs"], link: "https://github.com/ChaitanyaKothapalli9/House-Leasing-Application" },
+      { title: "Recursive DNS Resolver", description: "Constructed a high-performance DNS resolver in Golang from the ground up. Implemented a custom caching mechanism with TTL to minimize latency and optimize network requests for various record types.", tags: ["Golang", "DNS", "Caching", "Web Protocols"], link: "https://github.com/ChaitanyaKothapalli9/DNS-RESOLVER" },
+      { title: "CI/CD on AWS EKS", description: "Designed and implemented a complete, scalable CI/CD pipeline on AWS. Built the infrastructure using CodeCommit, CodePipeline, and ECR to automate the deployment of containerized workloads on EKS Fargate.", tags: ["AWS", "CI/CD", "Docker", "Kubernetes"], link: "https://github.com/ChaitanyaKothapalli9/CI-CD-pipeline-with-AWS-CodePipeline-EKS-Fargate-and-ALB" },
       { title: "Disk Scheduling Simulator", description: "A comprehensive simulation of OS concepts including disk scheduling (FCFS, SSF, Elevator), page replacement algorithms (FIFO, LRU), and multithreading for producer-consumer synchronization over 150 concurrent processes.", tags: ["C++", "Java", "Multithreading", "OS"], link: "#" },
-      { title: "RESTful Link Shortener", description: "Developed a Golang-based RESTful link management system with user-specific link handling and ownership validation. Integrated HATEOAS for dynamic link generation, improving API navigability.", tags: ["Golang", "REST APIs", "Postman"], link: "#" },
+      { title: "RESTful Link Shortener", description: "Developed a Golang-based RESTful link management system with user-specific link handling and ownership validation. Integrated HATEOAS for dynamic link generation, improving API navigability.", tags: ["Golang", "REST APIs", "Postman"], link: "https://github.com/ChaitanyaKothapalli9/RESTFUL-URL-SHORTENER" },
       { title: "Web Crawler & Image Finder", description: "A Java-based web crawler using JSoup and Servlets to extract images to a user-defined depth. Enhanced performance through advanced multithreading with CompletableFuture and ExecutorService.", tags: ["Java", "Multithreading", "Servlets", "DFS"], link: "#" }
     ],
     skills: {
