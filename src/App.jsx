@@ -140,7 +140,7 @@ export default function App() {
     email: "ckchaithu1234@gmail.com",
     linkedin: "https://www.linkedin.com/in/ckb123",
     github: "https://github.com/ChaitanyaKothapalli9",
-    resumeUrl: "https://drive.google.com/file/d/1IKsBCOBq-cCSbWoVfde7yEg-3eNcobnY/view?usp=sharing",
+    resumeUrl: "https://drive.google.com/file/d/1SLM4CWFW9tETagRpWrjAzmwYrJO4WsFj/view?pli=1",
     about: "I'm a Software Engineer who thrives on architecting and constructing high-performance backend services and distributed systems. With a Master's in Computer Science and hands-on experience with technologies like Java, Spring Boot, Go, Python, Kafka, RabbitMQ, Docker, Kubernetes and AWS, I transform complex challenges into robust, scalable software solutions. My passion lies in the complete development lifecycle, from initial design to final deployment.",
     experience: [
       { 
@@ -160,10 +160,9 @@ export default function App() {
         company: "Tata Consultancy Services", 
         date: "Aug 2021 - Sep 2022", 
         points: [
-            "Developed and deployed Java based microservices using Spring Boot for managing Active Directory groups in a Docker containerized environment Amazon Elastic Kubernetes Service, achieving a successful implementation with a 95 percent reduction in manual group management efforts.",
-            "Reduced cost by 10 percent by optimizing code for 22 active directory groups under External Account Maintenance and Bill Pay having 4 lakh users for United Services Automobile Association.",
+            "Developed and deployed Java based microservices using Spring Boot for managing Active Directory groups in a Docker containerized environment Amazon Elastic Kubernetes Service, achieving a successful implementation with a 95% reduction in manual group management efforts.",
+            "Reduced cost by 10 percent by optimizing code for 22 active directory groups under External Account Maintenance and Bill Pay having 400k users for United Services Automobile Association.",
             "Developed a full-stack dashboard using React, Java, Python, RestfulAPIs to centralize monitoring and governance of 215+ big data apps, automating data quality checks, compliance validation, and audit logging.",
-            "Engineered high utility microservices based application, catering to over 3500 stakeholders, by utilizing Spring Boot and MariaDB and ensuring seamless continuous deployment by implementing reliable DevOps Pipelines.",
             "Optimized SQL queries and implemented Redis in-memory caching, improving data processing speed by 33% and accelerating ML model training and dashboard performance."
         ],
         tech: ["Java", "Spring Boot", "REST APIs", "Microservices", "Docker", "Amazon EKS", "Python", "MariaDB", "Redis"],
