@@ -149,9 +149,10 @@ export default function App() {
         date: "Jan 2025 - Present", 
         points: [
             "Building a real-time sports event streaming pipeline using Apache Kafka and Spring Boot to distribute live match updates across dashboards, notifications, engineered for scalability to support 9,000+ concurrent viewers.",
+            "Implemented a consumer gateway for CDC-driven Kafka streams to enforce authentication, schema validation, and traffic control. This reduced faulty connections by 40% and improved data reliability during peak loads.",
             "Developing backend services for a Library Management System using Spring Boot, Spring Data JPA, and REST APIs to manage users, book lending, and inventory with role-based access control and MySQL integration."
         ],
-        tech: ["Spring Boot", "Java", "Kafka", "REST APIs", "MySQL", "Hibernate"],
+        tech: ["Java", "Spring Boot", "Kafka", "Gateway", "REST APIs", "MySQL", "Hibernate"],
         logo: <ScuLogo /> 
       },
       { 
@@ -160,10 +161,10 @@ export default function App() {
         date: "Aug 2021 - Sep 2022", 
         points: [
             "Developed and deployed Java based microservices using Spring Boot for managing Active Directory groups in a Docker containerized environment Amazon Elastic Kubernetes Service, achieving a successful implementation with a 95 percent reduction in manual group management efforts.",
-            "Reduced cost by 10 percent by optimizing code for 22 active directory groups issues under External Account Maintenance and Bill Pay having 4 lakh users for United Services Automobile Association.",
-            "Delivered a comprehensive full-stack application following software development life cycle with Java, Python, React JS, and highly responsive RESTful APIs, incorporating rigorous data quality checks and advanced data governance for managing over 215 internal big data apps.",
+            "Reduced cost by 10 percent by optimizing code for 22 active directory groups under External Account Maintenance and Bill Pay having 4 lakh users for United Services Automobile Association.",
+            "Developed a full-stack dashboard using React, Java, Python, RestfulAPIs to centralize monitoring and governance of 215+ big data apps, automating data quality checks, compliance validation, and audit logging.",
             "Engineered high utility microservices based application, catering to over 3500 stakeholders, by utilizing Spring Boot and MariaDB and ensuring seamless continuous deployment by implementing reliable DevOps Pipelines.",
-            "Simplified query optimization and in-memory Redis caching speeding up data processing by 33 percent for stakeholders' ML models and analytics dashboard."
+            "Optimized SQL queries and implemented Redis in-memory caching, improving data processing speed by 33% and accelerating ML model training and dashboard performance."
         ],
         tech: ["Java", "Spring Boot", "REST APIs", "Microservices", "Docker", "Amazon EKS", "Python", "MariaDB", "Redis"],
         logo: <TcsLogo /> 
@@ -173,7 +174,7 @@ export default function App() {
         company: "Larsen and Toubro Technology Services", 
         date: "June 2021 - Aug 2021", 
         points: [
-            "Employed ETL pipelines in PySpark and Scala, running within a Kubernetes cluster harmonizing data from financial institutions, regulators, market data providers, and external big data sources, elevating data quality and delivery by 69 percent.",
+            "Built scalable ETL pipelines in PySpark and Scala on Kubernetes to harmonize data from financial institutions, regulators, and market providers, improving data quality and delivery efficiency by 69%.",
             "Improved query performance and transaction time by 2.5x through SQL caching and indexing techniques."
         ],
         tech: ["Java", "Kafka", "Scala", "SQL", "Spark", "Python", "Kubernetes"],
